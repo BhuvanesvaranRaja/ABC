@@ -1,34 +1,305 @@
 {
-  "data": [
-    { "id": 1, "name": "Kate Turner", "age": 29 },
-    { "id": 2, "name": "Liam Parker", "age": 32 },
-    { "id": 3, "name": "Mia Scott", "age": 26 },
-    { "id": 4, "name": "Noah Garcia", "age": 30 },
-    { "id": 5, "name": "Olivia Lopez", "age": 23 },
-    { "id": 6, "name": "Peter Hill", "age": 34 },
-    { "id": 7, "name": "Quinn Bell", "age": 28 },
-    { "id": 8, "name": "Ryan Adams", "age": 31 },
-    { "id": 9, "name": "Sophia Reed", "age": 27 },
-    { "id": 10, "name": "Thomas Clark", "age": 33 },
-    { "id": 11, "name": "Uma Evans", "age": 25 },
-    { "id": 12, "name": "Victor Murphy", "age": 36 },
-    { "id": 13, "name": "Wendy Turner", "age": 29 },
-    { "id": 14, "name": "Xavier Rivera", "age": 32 },
-    { "id": 15, "name": "Yara Brooks", "age": 26 },
-    { "id": 16, "name": "Zane Cooper", "age": 30 },
-    { "id": 17, "name": "Abby Martinez", "age": 23 },
-    { "id": 18, "name": "Benjamin Peterson", "age": 34 },
-    { "id": 19, "name": "Chloe White", "age": 28 },
-    { "id": 20, "name": "Daniel Miller", "age": 31 },
-    { "id": 21, "name": "Ella Turner", "age": 29 },
-    { "id": 22, "name": "Finn Parker", "age": 32 },
-    { "id": 23, "name": "Grace Scott", "age": 26 },
-    { "id": 24, "name": "Henry Garcia", "age": 30 },
-    { "id": 25, "name": "Isabella Lopez", "age": 23 },
-    { "id": 26, "name": "Jack Hill", "age": 34 },
-    { "id": 27, "name": "Kylie Bell", "age": 28 },
-    { "id": 28, "name": "Liam Adams", "age": 31 },
-    { "id": 29, "name": "Mia Reed", "age": 27 },
-    { "id": 30, "name": "Noah Clark", "age": 33 }
-  ]
+  "data":[
+  {
+    "id": 1,
+    "Emp_id": 101,
+    "Emp_name": "Rahul Sharma",
+    "Age": 28,
+    "designation": "Software Engineer",
+    "Date_of_Joining": "01-01-2021",
+    "Overall_experience": 3,
+    "salary": 23000
+  },
+  {
+    "id": 2,
+    "Emp_id": 102,
+    "Emp_name": "Priya Patel",
+    "Age": 32,
+    "designation": "Senior Developer",
+    "Date_of_Joining": "05-02-2020",
+    "Overall_experience": 8,
+    "salary": 45000
+  },
+  {
+    "id": 3,
+    "Emp_id": 103,
+    "Emp_name": "Amit Verma",
+    "Age": 25,
+    "designation": "Junior Analyst",
+    "Date_of_Joining": "10-03-2022",
+    "Overall_experience": 2,
+    "salary": 28000
+  },
+  {
+    "id": 4,
+    "Emp_id": 104,
+    "Emp_name": "Deepika Singh",
+    "Age": 30,
+    "designation": "Product Manager",
+    "Date_of_Joining": "15-09-2019",
+    "Overall_experience": 10,
+    "salary": 65000
+  },
+  {
+    "id": 5,
+    "Emp_id": 105,
+    "Emp_name": "Anil Kumar",
+    "Age": 26,
+    "designation": "UX Designer",
+    "Date_of_Joining": "20-04-2022",
+    "Overall_experience": 3,
+    "salary": 38000
+  },
+  {
+    "id": 6,
+    "Emp_id": 106,
+    "Emp_name": "Sneha Gupta",
+    "Age": 29,
+    "designation": "Software Engineer",
+    "Date_of_Joining": "11-12-2020",
+    "Overall_experience": 6,
+    "salary": 35000
+  },
+  {
+    "id": 7,
+    "Emp_id": 107,
+    "Emp_name": "Rohit Sharma",
+    "Age": 31,
+    "designation": "Data Analyst",
+    "Date_of_Joining": "25-07-2021",
+    "Overall_experience": 4,
+    "salary": 32000
+  },
+  {
+    "id": 8,
+    "Emp_id": 108,
+    "Emp_name": "Sunita Singh",
+    "Age": 27,
+    "designation": "UX Designer",
+    "Date_of_Joining": "30-06-2022",
+    "Overall_experience": 2,
+    "salary": 30000
+  },
+  {
+    "id": 9,
+    "Emp_id": 109,
+    "Emp_name": "Vikram Singh",
+    "Age": 33,
+    "designation": "Senior Developer",
+    "Date_of_Joining": "02-05-2018",
+    "Overall_experience": 12,
+    "salary": 50000
+  },
+  {
+    "id": 10,
+    "Emp_id": 110,
+    "Emp_name": "Shweta Sharma",
+    "Age": 28,
+    "designation": "Software Engineer",
+    "Date_of_Joining": "14-11-2019",
+    "Overall_experience": 5,
+    "salary": 34000
+  },
+  {
+    "id": 11,
+    "Emp_id": 111,
+    "Emp_name": "Rajesh Patel",
+    "Age": 29,
+    "designation": "Product Manager",
+    "Date_of_Joining": "18-12-2017",
+    "Overall_experience": 13,
+    "salary": 75000
+  },
+  {
+    "id": 12,
+    "Emp_id": 112,
+    "Emp_name": "Neha Gupta",
+    "Age": 25,
+    "designation": "UX Designer",
+    "Date_of_Joining": "23-09-2021",
+    "Overall_experience": 2,
+    "salary": 28000
+  },
+  {
+    "id": 13,
+    "Emp_id": 113,
+    "Emp_name": "Akash Verma",
+    "Age": 31,
+    "designation": "Software Engineer",
+    "Date_of_Joining": "06-02-2020",
+    "Overall_experience": 7,
+    "salary": 40000
+  },
+  {
+    "id": 14,
+    "Emp_id": 114,
+    "Emp_name": "Kavita Singh",
+    "Age": 27,
+    "designation": "Data Analyst",
+    "Date_of_Joining": "08-04-2022",
+    "Overall_experience": 3,
+    "salary": 32000
+  },
+  {
+    "id": 15,
+    "Emp_id": 115,
+    "Emp_name": "Alok Patel",
+    "Age": 28,
+    "designation": "Software Engineer",
+    "Date_of_Joining": "30-11-2019",
+    "Overall_experience": 5,
+    "salary": 35000
+  },
+  {
+    "id": 16,
+    "Emp_id": 116,
+    "Emp_name": "Sneha Verma",
+    "Age": 26,
+    "designation": "UX Designer",
+    "Date_of_Joining": "10-10-2022",
+    "Overall_experience": 1,
+    "salary": 25000
+  },
+  {
+    "id": 17,
+    "Emp_id": 117,
+    "Emp_name": "Rahul Sharma",
+    "Age": 29,
+    "designation": "Software Engineer",
+    "Date_of_Joining": "17-07-2021",
+    "Overall_experience": 4,
+    "salary": 33000
+  },
+  {
+    "id": 18,
+    "Emp_id": 118,
+    "Emp_name": "Aarti Gupta",
+    "Age": 27,
+    "designation": "Data Analyst",
+    "Date_of_Joining": "22-09-2022",
+    "Overall_experience": 1,
+    "salary": 28000
+  },
+  {
+    "id": 19,
+    "Emp_id": 119,
+    "Emp_name": "Rajat Singh",
+    "Age": 32,
+    "designation": "Senior Developer",
+    "Date_of_Joining": "12-08-2018",
+    "Overall_experience": 11,
+    "salary": 52000
+  },
+  {
+    "id": 20,
+    "Emp_id": 120,
+    "Emp_name": "Anjali Sharma",
+    "Age": 29,
+    "designation": "Product Manager",
+    "Date_of_Joining": "24-03-2017",
+    "Overall_experience": 14,
+    "salary": 78000
+  },
+  {
+    "id": 21,
+    "Emp_id": 121,
+    "Emp_name": "Aman Patel",
+    "Age": 25,
+    "designation": "Software Engineer",
+    "Date_of_Joining": "05-02-2020",
+    "Overall_experience": 6,
+    "salary": 37000
+  },
+  {
+    "id": 22,
+    "Emp_id": 122,
+    "Emp_name": "Swati Verma",
+    "Age": 27,
+    "designation": "UX Designer",
+    "Date_of_Joining": "07-04-2022",
+    "Overall_experience": 2,
+    "salary": 30000
+  },
+  {
+    "id": 23,
+    "Emp_id": 123,
+    "Emp_name": "Ashish Sharma",
+    "Age": 30,
+    "designation": "Software Engineer",
+    "Date_of_Joining": "01-03-2021",
+    "Overall_experience": 4,
+    "salary": 33000
+  },
+  {
+    "id": 24,
+    "Emp_id": 124,
+    "Emp_name": "Rashmi Gupta",
+    "Age": 26,
+    "designation": "Data Analyst",
+    "Date_of_Joining": "03-07-2022",
+    "Overall_experience": 1,
+    "salary": 29000
+  },
+  {
+    "id": 25,
+    "Emp_id": 125,
+    "Emp_name": "Kunal Singh",
+    "Age": 31,
+    "designation": "Senior Developer",
+    "Date_of_Joining": "02-08-2018",
+    "Overall_experience": 10,
+    "salary": 50000
+  },
+  {
+    "id": 26,
+    "Emp_id": 126,
+    "Emp_name": "Ritu Sharma",
+    "Age": 29,
+    "designation": "Product Manager",
+    "Date_of_Joining": "29-11-2017",
+    "Overall_experience": 13,
+    "salary": 75000
+  },
+  {
+    "id": 27,
+    "Emp_id": 127,
+    "Emp_name": "Nitin Gupta",
+    "Age": 25,
+    "designation": "UX Designer",
+    "Date_of_Joining": "25-09-2021",
+    "Overall_experience": 2,
+    "salary": 28000
+  },
+  {
+    "id": 28,
+    "Emp_id": 128,
+    "Emp_name": "Monika Patel",
+    "Age": 30,
+    "designation": "Software Engineer",
+    "Date_of_Joining": "06-02-2020",
+    "Overall_experience": 6,
+    "salary": 37000
+  },
+  {
+    "id": 29,
+    "Emp_id": 129,
+    "Emp_name": "Manish Verma",
+    "Age": 28,
+    "designation": "Data Analyst",
+    "Date_of_Joining": "09-04-2022",
+    "Overall_experience": 3,
+    "salary": 32000
+  },
+  {
+    "id": 30,
+    "Emp_id": 130,
+    "Emp_name": "Ananya Sharma",
+    "Age": 26,
+    "designation": "UX Designer",
+    "Date_of_Joining": "12-10-2022",
+    "Overall_experience": 1,
+    "salary": 25000
+  }
+]
+
 }
